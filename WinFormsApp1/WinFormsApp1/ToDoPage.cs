@@ -42,7 +42,7 @@ namespace WinFormsApp1
 			// Add the label to the panel's Controls collection
 			panel2.Controls.Add(label);
 
-		Program.next = new MainForm();	
+		//Program.next = new MainForm();	
 			this.Close();
 
 

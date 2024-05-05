@@ -12,6 +12,7 @@ namespace WinFormsApp1
 {
 	public partial class FinalPage : Form
 	{
+
 		public FinalPage()
 		{
 			InitializeComponent();
@@ -25,25 +26,8 @@ namespace WinFormsApp1
 		private void button1_Click(object sender, EventArgs e)
 		{
 
-			button1.Anchor = AnchorStyles.Left;
-			Label label = new Label();
-			label.BackColor = Color.Red;
-			label.Anchor = AnchorStyles.Left;
-
-
-			////int num = panel1.Controls.Count;
-			//if (num >= 7)
-			//	label.Location = new Point(50 + num * 110, 5);
-			//else
-			//	label.Location = new Point(50 + num * 110, 15);
-
-			//label.Size = new Size(100, 80);
-
-			//label.Text = "Label " + 1; // here we put the main title of note
-
-			// Add the label to the panel's Controls collection
-			//panel1.Controls.Add(label);
-
+			//Program.next = new MainForm();
+			//this.Close();
 
 		}
 

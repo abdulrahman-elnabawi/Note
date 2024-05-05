@@ -9,16 +9,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.VisualStyles;
+using WinFormsApp1.Contextt;
+using WinFormsApp1.entities;
 
 namespace WinFormsApp1
 {
 	public partial class MainForm : Form
 	{
-		// Initialize the nextId variable to 1
+		private readonly Context context;
 
-		public MainForm()
+		public User user { get; set;}
+
+
+        // Initialize the nextId variable to 1
+
+        public MainForm(User user,Context context)
 		{
 			InitializeComponent();
+			this.user = user;
+			this.context = context;
+			var notes=context.Users.Where(e=>e.Email==user.Email).Select(e=>e.Notes);
 		}
 
 		public class TextBoxes
@@ -38,6 +48,25 @@ namespace WinFormsApp1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
+			button1.Anchor = AnchorStyles.Left;
+			Label label = new Label();
+			label.BackColor = Color.Red;
+			label.Anchor = AnchorStyles.Left;
+
+
+			int num = panel1.Controls.Count;
+			if (num >= 7)
+				label.Location = new Point(50 + num * 110, 5);
+			else
+				label.Location = new Point(50 + num * 110, 15);
+
+			label.Size = new Size(100, 80);
+
+			label.Text = "Label " + 1; // here we put the main title of note
+
+			
+			panel1.Controls.Add(label);
+
 			Program.next = new FinalPage();
 			this.Close();
 		}
@@ -85,7 +114,7 @@ namespace WinFormsApp1
 		}
 		private void MainForm_Load(object sender, EventArgs e)
 		{
-
+			
 		}
 	}
 }

@@ -3,16 +3,16 @@ namespace WinFormsApp1
 	public partial class Registration : Form
 	{
 
-       
 
 
 
 
-        public Registration()
+
+		public Registration()
 		{
 			InitializeComponent();
 		}
-		
+
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
@@ -21,7 +21,7 @@ namespace WinFormsApp1
 
 		public void textBox1_TextChanged(object sender, EventArgs e)
 		{
-				
+
 
 		}
 
@@ -32,6 +32,13 @@ namespace WinFormsApp1
 
 		private void button5_Click(object sender, EventArgs e)
 		{
+
+			if (textBox2.Text == "" || textBox3.Text == "")
+			{
+				MessageBox.Show("Please fill all fields");
+				return;
+			}
+
 			Program.next = new Login();
 			this.Close();
 		}
@@ -40,6 +47,11 @@ namespace WinFormsApp1
 		{
 			Program.next = new Login();
 			this.Close();
+		}
+
+		private void textBox2_TextChanged(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
