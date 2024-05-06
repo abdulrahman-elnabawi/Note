@@ -16,11 +16,12 @@ namespace WinFormsApp1
 		public Login()
 		{
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
 		}
 
 		private void button5_Click(object sender, EventArgs e)
 		{
-			if (textBox2.Text == "" || textBox2.Text == "")
+			if (textBox2.Text == "" || textBox3.Text == "")
 			{
 				MessageBox.Show("Please fill all fields");
 				return;
@@ -35,6 +36,7 @@ namespace WinFormsApp1
 				}
 				
 			}
+			
 			Program.next = new Registration();
 
 			this.Close();

@@ -41,6 +41,7 @@
 			// 
 			textBox3.Location = new Point(330, 201);
 			textBox3.Name = "textBox3";
+			textBox3.PasswordChar = '*';
 			textBox3.Size = new Size(213, 23);
 			textBox3.TabIndex = 15;
 			textBox3.TextChanged += textBox3_TextChanged;
@@ -75,7 +76,7 @@
 			button5.Name = "button5";
 			button5.Size = new Size(184, 55);
 			button5.TabIndex = 16;
-			button5.Text = "Submet";
+			button5.Text = "Submit";
 			button5.UseVisualStyleBackColor = true;
 			button5.Click += button5_Click;
 			// 

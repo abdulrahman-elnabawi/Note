@@ -47,7 +47,7 @@
 			button5.Name = "button5";
 			button5.Size = new Size(184, 55);
 			button5.TabIndex = 4;
-			button5.Text = "Submet";
+			button5.Text = "Submit";
 			button5.UseVisualStyleBackColor = true;
 			button5.Click += button5_Click;
 			// 

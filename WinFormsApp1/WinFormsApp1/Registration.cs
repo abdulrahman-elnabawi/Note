@@ -1,3 +1,5 @@
+using WinFormsApp1.entities;
+
 namespace WinFormsApp1
 {
 	public partial class Registration : Form
@@ -21,7 +23,15 @@ namespace WinFormsApp1
 
 		public void textBox1_TextChanged(object sender, EventArgs e)
 		{
-
+			if (textBox1 == null)
+			{
+				MessageBox.Show("Please fill all fields");
+				return;
+			}
+		
+				
+				
+			
 
 		}
 
@@ -32,6 +42,10 @@ namespace WinFormsApp1
 
 		private void button5_Click(object sender, EventArgs e)
 		{
+			User user = new User();
+			user.Name = textBox1.Text;
+			user.Email = textBox2.Text;
+			user.Password = textBox3.Text;
 
 			if (textBox2.Text == "" || textBox3.Text == "")
 			{
@@ -51,7 +65,17 @@ namespace WinFormsApp1
 
 		private void textBox2_TextChanged(object sender, EventArgs e)
 		{
+			if(textBox2 == null)
+			{
 
+				MessageBox.Show("Please fill all fields");
+				return;
+
+			}
+			else
+			{
+				
+			}
 		}
 	}
 }
