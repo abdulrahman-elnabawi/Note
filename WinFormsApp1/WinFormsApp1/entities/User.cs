@@ -5,6 +5,8 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Drawing;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WinFormsApp1.entities
 {
@@ -16,7 +18,11 @@ namespace WinFormsApp1.entities
 		public string Email { get; set; }
 		[Required,PasswordPropertyText]
 		public string Password { get; set; }
-		public virtual List<Note> Notes { get; set; }
+		public virtual ICollection<Note> Notes { get; set; }
+
+		[NotMapped]
+		public Image ProfilePicture { get; set; }
+	
 
 	}
 }

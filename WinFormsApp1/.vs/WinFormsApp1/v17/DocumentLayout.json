@@ -3,22 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\profile.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,32 +11,12 @@
       "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\finalpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\finalpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\contextt\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\contextt\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\registration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\interface\\desktop\\vpp\\note\\winformsapp1\\winformsapp1\\finalpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0ECE272D-C377-41C4-87BD-82E2970453A8}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\finalpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,97 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Profile.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Profile.Designer.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Profile.Designer.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Profile.Designer.cs",
-              "RelativeToolTip": "WinFormsApp1\\Profile.Designer.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAAAE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T13:27:26.148Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\entities\\User.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\entities\\User.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\entities\\User.cs",
-              "RelativeToolTip": "WinFormsApp1\\entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:51:01.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Profile.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Profile.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Profile.cs",
-              "RelativeToolTip": "WinFormsApp1\\Profile.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAAB0AAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:24:35.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Profile.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Profile.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Profile.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Profile.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Profile.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:18:07.475Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:17:22.247Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FinalPage.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\FinalPage.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\FinalPage.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\FinalPage.cs",
-              "RelativeToolTip": "WinFormsApp1\\FinalPage.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:10:58.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
-              "RelativeToolTip": "WinFormsApp1\\MainForm.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAkwH8AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:10:01.699Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -163,78 +38,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Program.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "WinFormsApp1\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwA4AAAAYAAAA",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
+              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs*",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.cs*",
+              "ViewState": "AQIAACQAAAAAAAAAAAAewDQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:03:12.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Contextt\\Context.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Contextt\\Context.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Contextt\\Context.cs",
-              "RelativeToolTip": "WinFormsApp1\\Contextt\\Context.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:00:52.353Z",
+              "WhenOpened": "2024-05-07T18:59:05.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Registration.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Registration.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Registration.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Registration.cs",
-              "RelativeToolTip": "WinFormsApp1\\Registration.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDMAAAAfAAAA",
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\MainForm.cs",
+              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\MainForm.cs [Design]*",
+              "RelativeToolTip": "WinFormsApp1\\MainForm.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:00:00.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Registration.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Registration.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Registration.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Registration.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Registration.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T11:59:51.587Z",
+              "WhenOpened": "2024-05-07T18:59:03.029Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Login.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Login.cs",
-              "RelativeToolTip": "WinFormsApp1\\Login.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAAQAAAA",
+              "DocumentIndex": 2,
+              "Title": "FinalPage.cs",
+              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\FinalPage.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FinalPage.cs",
+              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\FinalPage.cs",
+              "RelativeToolTip": "WinFormsApp1\\FinalPage.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAIAwwCEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T11:59:34.967Z",
+              "WhenOpened": "2024-05-07T18:57:29.519Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Login.cs",
-              "RelativeDocumentMoniker": "WinFormsApp1\\Login.cs",
-              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\Login.cs [Design]",
-              "RelativeToolTip": "WinFormsApp1\\Login.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "FinalPage.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\FinalPage.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\FinalPage.cs",
+              "ToolTip": "C:\\Users\\interface\\Desktop\\VPP\\Note\\WinFormsApp1\\WinFormsApp1\\FinalPage.cs [Design]",
+              "RelativeToolTip": "WinFormsApp1\\FinalPage.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T11:59:29.575Z",
+              "WhenOpened": "2024-05-07T18:57:27.111Z",
               "EditorCaption": " [Design]"
             }
           ]

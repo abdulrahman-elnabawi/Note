@@ -17,14 +17,26 @@ namespace WinFormsApp1
 		{
 			var email=textBox2.Text;
 			var password=textBox3.Text;
-			var user = context.Users.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
-			if (user == null)
-			{
-				MessageBox.Show("Invalid email or password");
-				return;
+			
+			try
+			{  var user = context.Users.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
+				if (user == null)
+				{
+					MessageBox.Show("ما تسجل يا ابن المتناكة"); return;
+
+				}
+				Program.curentUser = user;
+				Program.next = new MainForm();
+				this.Close();
 			}
-			Program.next = new MainForm(user);
-			this.Close();
+
+			catch (Exception ex)
+			{
+				MessageBox.Show("Error: " + ex.Message);
+				return;
+			} 
+			
+			
 
 		}
 

@@ -7,15 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WinFormsApp1.Contextt;
 
 namespace WinFormsApp1
 {
 	public partial class FinalPage : Form
 	{
-
+		public Context context;
 		public FinalPage()
 		{
 			InitializeComponent();
+			context = new Context();
 		}
 
 		private void panel1_Paint(object sender, PaintEventArgs e)
@@ -25,14 +27,22 @@ namespace WinFormsApp1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			string s1= textBox1.Text;
-			string s2 = richTextBox1.Text;
-			var USER =new entities.User();
-			MainForm mainForm = new MainForm(USER);
-			mainForm.CreateCard(s1);
+			var note = new entities.Note();	
+			note.Title = textBox1.Text;
+			note.Content = richTextBox1.Text;
+			note.Date = DateTime.Now;
+			note.UserEmail = Program.curentUser.Email;
 
-		//	Program.next = new MainForm();
-			this.Close();
+		
+
+				Program.context.Notes.Add(note);
+				Program.context.SaveChanges();
+				MessageBox.Show("Note added successfully");
+				Program.next = new MainForm();
+				this.Close();
+			
+
+		
 
 		}
 

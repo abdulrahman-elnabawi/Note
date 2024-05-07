@@ -37,12 +37,6 @@ namespace WinFormsApp1.Migrations
                     b.Property<DateTime>("Date")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Fontsize")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Fontstyle")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

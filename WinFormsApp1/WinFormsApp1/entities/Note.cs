@@ -13,9 +13,6 @@ namespace WinFormsApp1.entities
 		public int Id { get; set; }
 		public string Title { get; set; }
 		public string Content { get; set; }
-		public FontStyle  Fontstyle { get; set; }
-		public int  Fontsize { get; set; }
-		FontFamily Fontfamily { get; set; }
 		public DateTime Date { get; set; }
 		[ForeignKey("User")]
 		public string UserEmail { get; set; }

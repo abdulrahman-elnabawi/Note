@@ -17,17 +17,15 @@ namespace WinFormsApp1
 {
 	public partial class MainForm : Form
 	{
-		private readonly Context context;
-		private readonly User user;
 
 
 
 		// Initialize the nextId variable to 1
 
-		public MainForm(User user)
+		public MainForm()
 		{
 			InitializeComponent();
-			this.user = user;
+			
 		}
 
 		public class TextBoxes
@@ -52,8 +50,8 @@ namespace WinFormsApp1
 			//Program.next = new FinalPage();
 
 			FinalPage finalPage = new FinalPage();
-			finalPage.Show();
-			//this.Close();
+			Program.next = finalPage;
+			this.Close();
 		}
 
 		public void CreateCard(string title)
@@ -120,12 +118,17 @@ namespace WinFormsApp1
 		}
 		private void MainForm_Load(object sender, EventArgs e)
 		{
+			var notes = Program.context.Notes.Where(e=>e.User.Email==Program.curentUser.Email).ToList();
+			foreach (var note in notes)
+			{
+				CreateCard(note.Title);
+			}
 
 		}
 
 		private void button3_Click(object sender, EventArgs e)
 		{
-			Program.next = new Profile(user);
+			Program.next = new Profile();
 			this.Close();
 
 		}
