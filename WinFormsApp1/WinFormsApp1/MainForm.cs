@@ -57,7 +57,7 @@ namespace WinFormsApp1
 		public void CreateCard(string title)
 		{
 			Label label = new Label();
-			label.BackColor = Color.AliceBlue;
+			label.BackColor = Color.Beige;
 			label.Anchor = AnchorStyles.Left;
 
 
@@ -78,7 +78,7 @@ namespace WinFormsApp1
 		public void CreateCard2(string title)
 		{
 			Label label = new Label();
-			label.BackColor = Color.Aqua;
+			label.BackColor = Color.Beige;
 			label.Anchor = AnchorStyles.Left;
 
 

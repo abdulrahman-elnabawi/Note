@@ -27,22 +27,22 @@ namespace WinFormsApp1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			var note = new entities.Note();	
+			var note = new entities.Note();
 			note.Title = textBox1.Text;
 			note.Content = richTextBox1.Text;
 			note.Date = DateTime.Now;
 			note.UserEmail = Program.curentUser.Email;
 
-		
 
-				Program.context.Notes.Add(note);
-				Program.context.SaveChanges();
-				MessageBox.Show("Note added successfully");
-				Program.next = new MainForm();
-				this.Close();
-			
 
-		
+			Program.context.Notes.Add(note);
+			Program.context.SaveChanges();
+			MessageBox.Show("Note added successfully");
+			Program.next = new MainForm();
+			this.Close();
+
+
+
 
 		}
 
@@ -83,11 +83,16 @@ namespace WinFormsApp1
 
 		private void button5_Click(object sender, EventArgs e)
 		{
-			var colorDialog = new ColorDialog();	
+			var colorDialog = new ColorDialog();
 			if (colorDialog.ShowDialog() == DialogResult.OK)
 			{
 				richTextBox1.ForeColor = colorDialog.Color;
 			}
+		}
+
+		private void panel2_Paint(object sender, PaintEventArgs e)
+		{
+
 		}
 	}
 }

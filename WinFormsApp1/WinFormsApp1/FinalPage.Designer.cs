@@ -31,13 +31,13 @@
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FinalPage));
 			button1 = new Button();
 			panel2 = new Panel();
+			label1 = new Label();
 			textBox1 = new TextBox();
 			button7 = new Button();
 			button6 = new Button();
 			button5 = new Button();
 			button2 = new Button();
 			richTextBox1 = new RichTextBox();
-			label1 = new Label();
 			panel2.SuspendLayout();
 			SuspendLayout();
 			// 
@@ -54,6 +54,7 @@
 			// 
 			// panel2
 			// 
+			panel2.BackColor = Color.DarkGray;
 			panel2.Controls.Add(label1);
 			panel2.Controls.Add(textBox1);
 			panel2.Controls.Add(button7);
@@ -66,11 +67,20 @@
 			panel2.Name = "panel2";
 			panel2.Size = new Size(800, 56);
 			panel2.TabIndex = 5;
+			panel2.Paint += panel2_Paint;
+			// 
+			// label1
+			// 
+			label1.Location = new Point(355, 3);
+			label1.Name = "label1";
+			label1.Size = new Size(105, 23);
+			label1.TabIndex = 12;
+			label1.Text = "Main Title";
 			// 
 			// textBox1
 			// 
 			textBox1.BackColor = SystemColors.InactiveBorder;
-			textBox1.Location = new Point(301, 18);
+			textBox1.Location = new Point(301, 26);
 			textBox1.Multiline = true;
 			textBox1.Name = "textBox1";
 			textBox1.Size = new Size(172, 27);
@@ -122,20 +132,13 @@
 			// 
 			// richTextBox1
 			// 
+			richTextBox1.BackColor = Color.FromArgb(224, 224, 224);
 			richTextBox1.Dock = DockStyle.Fill;
 			richTextBox1.Location = new Point(0, 56);
 			richTextBox1.Name = "richTextBox1";
 			richTextBox1.Size = new Size(800, 461);
 			richTextBox1.TabIndex = 6;
 			richTextBox1.Text = "";
-			// 
-			// label1
-			// 
-			label1.Location = new Point(359, 0);
-			label1.Name = "label1";
-			label1.Size = new Size(105, 23);
-			label1.TabIndex = 12;
-			label1.Text = "Main Title";
 			// 
 			// FinalPage
 			// 
