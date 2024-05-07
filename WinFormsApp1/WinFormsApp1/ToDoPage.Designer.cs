@@ -30,7 +30,6 @@
 		{
 			label1 = new Label();
 			textBox1 = new TextBox();
-			button1 = new Button();
 			button2 = new Button();
 			SuspendLayout();
 			// 
@@ -47,25 +46,16 @@
 			// textBox1
 			// 
 			textBox1.Location = new Point(277, 114);
+			textBox1.Multiline = true;
 			textBox1.Name = "textBox1";
-			textBox1.Size = new Size(258, 23);
+			textBox1.Size = new Size(258, 59);
 			textBox1.TabIndex = 1;
 			textBox1.TextChanged += textBox1_TextChanged;
-			// 
-			// button1
-			// 
-			button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			button1.Location = new Point(302, 219);
-			button1.Name = "button1";
-			button1.Size = new Size(213, 44);
-			button1.TabIndex = 2;
-			button1.Text = "Add Reminder";
-			button1.UseVisualStyleBackColor = true;
 			// 
 			// button2
 			// 
 			button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			button2.Location = new Point(624, 154);
+			button2.Location = new Point(357, 215);
 			button2.Name = "button2";
 			button2.Size = new Size(107, 59);
 			button2.TabIndex = 3;
@@ -79,7 +69,6 @@
 			AutoScaleMode = AutoScaleMode.Font;
 			ClientSize = new Size(800, 450);
 			Controls.Add(button2);
-			Controls.Add(button1);
 			Controls.Add(textBox1);
 			Controls.Add(label1);
 			Name = "ToDoPage";
@@ -92,7 +81,6 @@
 
 		private Label label1;
 		private TextBox textBox1;
-		private Button button1;
 		private Button button2;
 	}
 }

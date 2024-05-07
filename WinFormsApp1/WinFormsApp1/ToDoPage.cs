@@ -16,43 +16,29 @@ namespace WinFormsApp1
 		{
 			InitializeComponent();
 
-			CreateCard();
+			
 		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			CreateCard();
+			var todo = new entities.TODO();
+			todo.Title = textBox1.Text;
 
-			//Program.next = new MainForm();	
+			todo.Date = DateTime.Now;
+			todo.UserEmail = Program.curentUser.Email;
+
+
+
+			Program.context.TODOs.Add(todo);
+			Program.context.SaveChanges();
+			MessageBox.Show("Note added successfully");
+			Program.next = new MainForm();	
 			this.Close();
 
 
 		}
 		
-		public void CreateCard()
-		{
-			Panel panel2 = new Panel();
-
-			button2.Anchor = AnchorStyles.Left;
-			Label label = new Label();
-			label.BackColor = Color.Red;
-			label.Anchor = AnchorStyles.Left;
-
-
-			int num = panel2.Controls.Count;
-			if (num >= 7)
-				label.Location = new Point(50 + num * 110, 5);
-			else
-				label.Location = new Point(50 + num * 110, 15);
-
-			label.Size = new Size(100, 80);
-
-			label.Text = $"{textBox1.Text}"; // here we put the main title of note
-
-			// Add the label to the panel's Controls collection
-			panel2.Controls.Add(label);
-		}
-
+	
 		public void textBox1_TextChanged(object sender, EventArgs e)
 		{
 			string text = textBox1.Text;

@@ -15,6 +15,7 @@ namespace WinFormsApp1.Contextt
 		}
 		public DbSet<entities.User> Users { get; set; }
 		public DbSet<entities.Note> Notes { get; set; }
+		public DbSet<entities.TODO> TODOs { get; set; }
 
 
 

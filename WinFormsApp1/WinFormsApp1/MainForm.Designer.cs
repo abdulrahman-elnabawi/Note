@@ -28,6 +28,7 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
 			button1 = new Button();
 			panel1 = new Panel();
 			label1 = new Label();
@@ -111,11 +112,14 @@
 			// 
 			// button3
 			// 
+			button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
+			button3.BackgroundImageLayout = ImageLayout.Zoom;
+			button3.FlatAppearance.BorderSize = 0;
+			button3.FlatStyle = FlatStyle.Flat;
 			button3.Location = new Point(704, 12);
 			button3.Name = "button3";
 			button3.Size = new Size(75, 39);
 			button3.TabIndex = 5;
-			button3.Text = "button3";
 			button3.UseVisualStyleBackColor = true;
 			button3.Click += button3_Click;
 			// 

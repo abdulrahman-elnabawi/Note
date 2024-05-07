@@ -52,6 +52,32 @@ namespace WinFormsApp1.Migrations
                     b.ToTable("Notes");
                 });
 
+            modelBuilder.Entity("WinFormsApp1.entities.TODO", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserEmail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserEmail");
+
+                    b.ToTable("TODOs");
+                });
+
             modelBuilder.Entity("WinFormsApp1.entities.User", b =>
                 {
                     b.Property<string>("Email")
@@ -81,9 +107,22 @@ namespace WinFormsApp1.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("WinFormsApp1.entities.TODO", b =>
+                {
+                    b.HasOne("WinFormsApp1.entities.User", "User")
+                        .WithMany("TODOs")
+                        .HasForeignKey("UserEmail")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("WinFormsApp1.entities.User", b =>
                 {
                     b.Navigation("Notes");
+
+                    b.Navigation("TODOs");
                 });
 #pragma warning restore 612, 618
         }

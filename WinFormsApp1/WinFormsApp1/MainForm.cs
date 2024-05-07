@@ -57,7 +57,7 @@ namespace WinFormsApp1
 		public void CreateCard(string title)
 		{
 			Label label = new Label();
-			label.BackColor = Color.Red;
+			label.BackColor = Color.AliceBlue;
 			label.Anchor = AnchorStyles.Left;
 
 
@@ -73,6 +73,27 @@ namespace WinFormsApp1
 
 
 			panel1.Controls.Add(label);
+
+		}
+		public void CreateCard2(string title)
+		{
+			Label label = new Label();
+			label.BackColor = Color.Aqua;
+			label.Anchor = AnchorStyles.Left;
+
+
+			int num = panel2.Controls.Count;
+			if (num >= 7)
+				label.Location = new Point(50 + num * 110, 5);
+			else
+				label.Location = new Point(50 + num * 110, 15);
+
+			label.Size = new Size(100, 80);
+
+			label.Text = title; // here we put the main title of note
+
+
+			panel2.Controls.Add(label);
 
 		}
 
@@ -104,7 +125,7 @@ namespace WinFormsApp1
 
 		public void panel2_Paint(object sender, EventArgs e)
 		{
-			Panel panel2 = new Panel();
+			
 			panel2.AutoScroll = true;
 			panel2.VerticalScroll.Enabled = true;
 			panel2.VerticalScroll.Visible = true;
@@ -122,12 +143,21 @@ namespace WinFormsApp1
 			foreach (var note in notes)
 			{
 				CreateCard(note.Title);
+
+			}var todos = Program.context.TODOs.Where(e=>e.User.Email==Program.curentUser.Email).ToList();
+			foreach (var todo in todos)
+			{
+				CreateCard2(todo.Title);
+
 			}
 
 		}
 
 		private void button3_Click(object sender, EventArgs e)
 		{
+
+			button3.Text = "Profile";
+
 			Program.next = new Profile();
 			this.Close();
 

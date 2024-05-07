@@ -19,6 +19,7 @@ namespace WinFormsApp1.entities
 		[Required,PasswordPropertyText]
 		public string Password { get; set; }
 		public virtual ICollection<Note> Notes { get; set; }
+		public virtual ICollection<TODO> TODOs { get; set; }
 
 		[NotMapped]
 		public Image ProfilePicture { get; set; }
