@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,18 +18,16 @@ namespace WinFormsApp1
 	public partial class MainForm : Form
 	{
 		private readonly Context context;
+		private readonly User user;
 
-		public User user { get; set;}
 
 
-        // Initialize the nextId variable to 1
+		// Initialize the nextId variable to 1
 
-        public MainForm(User user,Context context)
+		public MainForm(User user)
 		{
 			InitializeComponent();
 			this.user = user;
-			this.context = context;
-			var notes=context.Users.Where(e=>e.Email==user.Email).Select(e=>e.Notes);
 		}
 
 		public class TextBoxes
@@ -48,7 +47,17 @@ namespace WinFormsApp1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
-			button1.Anchor = AnchorStyles.Left;
+			//	button1.Anchor = AnchorStyles.Left;
+			//	CreateCard("dsd");
+			//Program.next = new FinalPage();
+
+			FinalPage finalPage = new FinalPage();
+			finalPage.Show();
+			//this.Close();
+		}
+
+		public void CreateCard(string title)
+		{
 			Label label = new Label();
 			label.BackColor = Color.Red;
 			label.Anchor = AnchorStyles.Left;
@@ -62,15 +71,12 @@ namespace WinFormsApp1
 
 			label.Size = new Size(100, 80);
 
-			label.Text = "Label " + 1; // here we put the main title of note
+			label.Text = title; // here we put the main title of note
 
-			
+
 			panel1.Controls.Add(label);
 
-			Program.next = new FinalPage();
-			this.Close();
 		}
-
 
 
 
@@ -106,15 +112,24 @@ namespace WinFormsApp1
 			panel2.VerticalScroll.Visible = true;
 			panel2.VerticalScroll.Maximum = 0;
 		}
-		public void  AddLabel(string s)
+		public void AddLabel(string s)
 		{
-			var bll=new Label();
+			var bll = new Label();
 			bll.Text = s;
 			this.panel2.Controls.Add(bll);
 		}
 		private void MainForm_Load(object sender, EventArgs e)
 		{
-			
+
 		}
+
+		private void button3_Click(object sender, EventArgs e)
+		{
+			Program.next = new Profile(user);
+			this.Close();
+
+		}
+
+		
 	}
 }

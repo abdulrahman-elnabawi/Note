@@ -1,45 +1,31 @@
-﻿using Microsoft.VisualBasic.ApplicationServices;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Data;
+using WinFormsApp1.Contextt;
 
 namespace WinFormsApp1
 {
 	public partial class Login : Form
 	{
+		Context context;
 		public Login()
 		{
 			InitializeComponent();
+			context = new Context();
 			this.StartPosition = FormStartPosition.CenterScreen;
 		}
 
 		private void button5_Click(object sender, EventArgs e)
 		{
-			if (textBox2.Text == "" || textBox3.Text == "")
+			var email=textBox2.Text;
+			var password=textBox3.Text;
+			var user = context.Users.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
+			if (user == null)
 			{
-				MessageBox.Show("Please fill all fields");
+				MessageBox.Show("Invalid email or password");
 				return;
 			}
-			using (Contextt.Context context = new Contextt.Context())
-			{
-				var user = context.Users.Where(u => u.Email == textBox2.Text && u.Password == textBox3.Text).FirstOrDefault();
-				if (user == null)
-				{
-					MessageBox.Show("Invalid username or password");
-					return;
-				}
-				
-			}
-			
-			Program.next = new Registration();
-
+			Program.next = new MainForm(user);
 			this.Close();
+
 		}
 
 		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)

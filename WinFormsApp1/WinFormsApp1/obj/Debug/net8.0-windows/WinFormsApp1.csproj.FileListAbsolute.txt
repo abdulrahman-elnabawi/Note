@@ -259,3 +259,4 @@ C:\Users\interface\Desktop\VPP\Note\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-w
 C:\Users\interface\Desktop\VPP\Note\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
 C:\Users\interface\Desktop\VPP\Note\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\interface\Desktop\VPP\Note\WinFormsApp1\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\interface\Desktop\VPP\Note\WinFormsApp1\WinFormsApp1\obj\Debug\net8.0-windows\WinFormsApp1.Profile.resources

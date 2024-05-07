@@ -25,9 +25,14 @@ namespace WinFormsApp1
 
 		private void button1_Click(object sender, EventArgs e)
 		{
+			string s1= textBox1.Text;
+			string s2 = richTextBox1.Text;
+			var USER =new entities.User();
+			MainForm mainForm = new MainForm(USER);
+			mainForm.CreateCard(s1);
 
-			//Program.next = new MainForm();
-			//this.Close();
+		//	Program.next = new MainForm();
+			this.Close();
 
 		}
 

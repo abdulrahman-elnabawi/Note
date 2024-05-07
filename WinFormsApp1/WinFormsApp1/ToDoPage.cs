@@ -15,13 +15,23 @@ namespace WinFormsApp1
 		public ToDoPage()
 		{
 			InitializeComponent();
+
+			CreateCard();
 		}
 
 		private void button2_Click(object sender, EventArgs e)
 		{
-			Panel	panel2 = new Panel();
-			
-			 
+			CreateCard();
+
+			//Program.next = new MainForm();	
+			this.Close();
+
+
+		}
+		
+		public void CreateCard()
+		{
+			Panel panel2 = new Panel();
 
 			button2.Anchor = AnchorStyles.Left;
 			Label label = new Label();
@@ -41,11 +51,6 @@ namespace WinFormsApp1
 
 			// Add the label to the panel's Controls collection
 			panel2.Controls.Add(label);
-
-		//Program.next = new MainForm();	
-			this.Close();
-
-
 		}
 
 		public void textBox1_TextChanged(object sender, EventArgs e)

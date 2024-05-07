@@ -1,18 +1,16 @@
+using WinFormsApp1.Contextt;
 using WinFormsApp1.entities;
 
 namespace WinFormsApp1
 {
 	public partial class Registration : Form
 	{
-
-
-
-
-
+		public Context context;
 
 		public Registration()
 		{
 			InitializeComponent();
+			context = new Context();
 		}
 
 
@@ -46,15 +44,21 @@ namespace WinFormsApp1
 			user.Name = textBox1.Text;
 			user.Email = textBox2.Text;
 			user.Password = textBox3.Text;
-
-			if (textBox2.Text == "" || textBox3.Text == "")
+			try
 			{
-				MessageBox.Show("Please fill all fields");
-				return;
-			}
+				context.Users.Add(user);
 
-			Program.next = new Login();
-			this.Close();
+				context.SaveChanges();
+				Program.next = new Login();
+				this.Close();
+			}
+			catch (Exception ex)
+			{
+				MessageBox.Show("Error: " + ex.Message);
+			}
+			
+
+			
 		}
 
 		private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
