@@ -54,6 +54,7 @@
 			// 
 			// panel1
 			// 
+			panel1.BackColor = SystemColors.ActiveBorder;
 			panel1.Controls.Add(button1);
 			panel1.Location = new Point(0, 57);
 			panel1.Name = "panel1";
@@ -74,6 +75,7 @@
 			// panel2
 			// 
 			panel2.AutoScroll = true;
+			panel2.BackColor = SystemColors.ActiveBorder;
 			panel2.Controls.Add(button2);
 			panel2.Location = new Point(0, 270);
 			panel2.Name = "panel2";
@@ -127,7 +129,7 @@
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
-			BackColor = Color.Gray;
+			BackColor = SystemColors.ActiveBorder;
 			ClientSize = new Size(800, 450);
 			Controls.Add(button3);
 			Controls.Add(label3);

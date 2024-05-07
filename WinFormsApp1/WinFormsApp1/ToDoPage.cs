@@ -16,7 +16,7 @@ namespace WinFormsApp1
 		{
 			InitializeComponent();
 
-			
+
 		}
 
 		private void button2_Click(object sender, EventArgs e)
@@ -32,16 +32,21 @@ namespace WinFormsApp1
 			Program.context.TODOs.Add(todo);
 			Program.context.SaveChanges();
 			MessageBox.Show("Note added successfully");
-			Program.next = new MainForm();	
+			Program.next = new MainForm();
 			this.Close();
 
 
 		}
-		
-	
+
+
 		public void textBox1_TextChanged(object sender, EventArgs e)
 		{
 			string text = textBox1.Text;
+		}
+
+		private void ToDoPage_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }

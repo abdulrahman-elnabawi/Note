@@ -25,7 +25,7 @@ namespace WinFormsApp1
 		public MainForm()
 		{
 			InitializeComponent();
-			
+
 		}
 
 		public class TextBoxes
@@ -125,7 +125,7 @@ namespace WinFormsApp1
 
 		public void panel2_Paint(object sender, EventArgs e)
 		{
-			
+
 			panel2.AutoScroll = true;
 			panel2.VerticalScroll.Enabled = true;
 			panel2.VerticalScroll.Visible = true;
@@ -139,12 +139,13 @@ namespace WinFormsApp1
 		}
 		private void MainForm_Load(object sender, EventArgs e)
 		{
-			var notes = Program.context.Notes.Where(e=>e.User.Email==Program.curentUser.Email).ToList();
+			var notes = Program.context.Notes.Where(e => e.User.Email == Program.curentUser.Email).ToList();
 			foreach (var note in notes)
 			{
 				CreateCard(note.Title);
 
-			}var todos = Program.context.TODOs.Where(e=>e.User.Email==Program.curentUser.Email).ToList();
+			}
+			var todos = Program.context.TODOs.Where(e => e.User.Email == Program.curentUser.Email).ToList();
 			foreach (var todo in todos)
 			{
 				CreateCard2(todo.Title);
@@ -163,6 +164,9 @@ namespace WinFormsApp1
 
 		}
 
-		
+		private void panel2_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
 	}
 }

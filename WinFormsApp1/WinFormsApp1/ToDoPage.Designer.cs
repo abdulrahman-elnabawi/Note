@@ -37,7 +37,7 @@
 			// 
 			label1.AutoSize = true;
 			label1.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-			label1.Location = new Point(302, 50);
+			label1.Location = new Point(307, 50);
 			label1.Name = "label1";
 			label1.Size = new Size(198, 37);
 			label1.TabIndex = 0;
@@ -67,12 +67,14 @@
 			// 
 			AutoScaleDimensions = new SizeF(7F, 15F);
 			AutoScaleMode = AutoScaleMode.Font;
+			BackColor = SystemColors.ActiveBorder;
 			ClientSize = new Size(800, 450);
 			Controls.Add(button2);
 			Controls.Add(textBox1);
 			Controls.Add(label1);
 			Name = "ToDoPage";
 			Text = "ToDoPage";
+			Load += ToDoPage_Load;
 			ResumeLayout(false);
 			PerformLayout();
 		}
