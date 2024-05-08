@@ -25,6 +25,7 @@ namespace WinFormsApp1
 		public MainForm()
 		{
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
 
 		}
 
@@ -56,9 +57,18 @@ namespace WinFormsApp1
 
 		public void CreateCard(string title)
 		{
+			var note = new Note();
+			note.Title = title;
+			note.UserEmail = Program.curentUser.Email;
+
 			Label label = new Label();
 			label.BackColor = Color.Beige;
 			label.Anchor = AnchorStyles.Left;
+			label.Click += (sender, e) =>
+			{
+				Program.next = new FinalPage();
+				this.Close();
+			};
 
 
 			int num = panel1.Controls.Count;

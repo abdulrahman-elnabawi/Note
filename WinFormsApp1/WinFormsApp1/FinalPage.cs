@@ -17,12 +17,13 @@ namespace WinFormsApp1
 		public FinalPage()
 		{
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
 			context = new Context();
 		}
 
 		private void panel1_Paint(object sender, PaintEventArgs e)
 		{
-			//label1.AutoScrollOffset = new Point(0, 0);
+			label1.AutoScrollOffset = new Point(0, 0);
 		}
 
 		private void button1_Click(object sender, EventArgs e)
@@ -91,6 +92,11 @@ namespace WinFormsApp1
 		}
 
 		private void panel2_Paint(object sender, PaintEventArgs e)
+		{
+
+		}
+
+		private void richTextBox1_TextChanged(object sender, EventArgs e)
 		{
 
 		}

@@ -10,6 +10,7 @@ namespace WinFormsApp1
 		public Registration()
 		{
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
 			context = new Context();
 		}
 

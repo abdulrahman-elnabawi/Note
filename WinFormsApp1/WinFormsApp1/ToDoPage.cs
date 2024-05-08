@@ -15,6 +15,7 @@ namespace WinFormsApp1
 		public ToDoPage()
 		{
 			InitializeComponent();
+			this.StartPosition = FormStartPosition.CenterScreen;
 
 
 		}

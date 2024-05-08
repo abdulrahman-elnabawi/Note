@@ -15,11 +15,12 @@ namespace WinFormsApp1
 
 		private void button5_Click(object sender, EventArgs e)
 		{
-			var email=textBox2.Text;
-			var password=textBox3.Text;
-			
+			var email = textBox2.Text;
+			var password = textBox3.Text;
+
 			try
-			{  var user = context.Users.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
+			{
+				var user = context.Users.Where(u => u.Email == email && u.Password == password).FirstOrDefault();
 				if (user == null)
 				{
 					MessageBox.Show("ما تسجل يا ابن المتناكة"); return;
@@ -34,9 +35,9 @@ namespace WinFormsApp1
 			{
 				MessageBox.Show("Error: " + ex.Message);
 				return;
-			} 
-			
-			
+			}
+
+
 
 		}
 
@@ -52,6 +53,11 @@ namespace WinFormsApp1
 		}
 
 		private void textBox3_TextChanged(object sender, EventArgs e)
+		{
+
+		}
+
+		private void Login_Load(object sender, EventArgs e)
 		{
 
 		}

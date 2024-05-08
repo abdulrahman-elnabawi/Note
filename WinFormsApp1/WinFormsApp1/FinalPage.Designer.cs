@@ -139,6 +139,7 @@
 			richTextBox1.Size = new Size(800, 461);
 			richTextBox1.TabIndex = 6;
 			richTextBox1.Text = "";
+			richTextBox1.TextChanged += richTextBox1_TextChanged;
 			// 
 			// FinalPage
 			// 
